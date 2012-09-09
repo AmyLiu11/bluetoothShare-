@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE91381415FC7E2C006BD0D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE91381315FC7E2C006BD0D0 /* UIKit.framework */; };
+		FE91381615FC7E2C006BD0D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE91381515FC7E2C006BD0D0 /* Foundation.framework */; };
+		FE91381815FC7E2C006BD0D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE91381715FC7E2C006BD0D0 /* CoreGraphics.framework */; };
+		FE91381E15FC7E2C006BD0D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE91381C15FC7E2C006BD0D0 /* InfoPlist.strings */; };
+		FE91382015FC7E2C006BD0D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE91381F15FC7E2C006BD0D0 /* main.m */; };
+		FE91382415FC7E2C006BD0D0 /* BTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE91382315FC7E2C006BD0D0 /* BTAppDelegate.m */; };
+		FE91382715FC7E2C006BD0D0 /* BTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE91382615FC7E2C006BD0D0 /* BTViewController.m */; };
+		FE91382A15FC7E2C006BD0D0 /* BTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE91382815FC7E2C006BD0D0 /* BTViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE91380F15FC7E2C006BD0D0 /* bluetoothShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bluetoothShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE91381315FC7E2C006BD0D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE91381515FC7E2C006BD0D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FE91381715FC7E2C006BD0D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE91381B15FC7E2C006BD0D0 /* bluetoothShare-Info.plist */ = {isa = PBXFileReference; path = "bluetoothShare-Info.plist"; sourceTree = "<group>"; };
+		FE91381D15FC7E2C006BD0D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE91381F15FC7E2C006BD0D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE91382115FC7E2C006BD0D0 /* bluetoothShare-Prefix.pch */ = {isa = PBXFileReference; path = "bluetoothShare-Prefix.pch"; sourceTree = "<group>"; };
+		FE91382215FC7E2C006BD0D0 /* BTAppDelegate.h */ = {isa = PBXFileReference; path = BTAppDelegate.h; sourceTree = "<group>"; };
+		FE91382315FC7E2C006BD0D0 /* BTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTAppDelegate.m; sourceTree = "<group>"; };
+		FE91382515FC7E2C006BD0D0 /* BTViewController.h */ = {isa = PBXFileReference; path = BTViewController.h; sourceTree = "<group>"; };
+		FE91382615FC7E2C006BD0D0 /* BTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTViewController.m; sourceTree = "<group>"; };
+		FE91382915FC7E2C006BD0D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BTViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE91380C15FC7E2C006BD0D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE91381415FC7E2C006BD0D0 /* UIKit.framework in Frameworks */,
+				FE91381615FC7E2C006BD0D0 /* Foundation.framework in Frameworks */,
+				FE91381815FC7E2C006BD0D0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE91380415FC7E2B006BD0D0 = {
+			isa = PBXGroup;
+			children = (
+				FE91381915FC7E2C006BD0D0 /* bluetoothShare */,
+				FE91381215FC7E2C006BD0D0 /* Frameworks */,
+				FE91381015FC7E2C006BD0D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE91381015FC7E2C006BD0D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE91380F15FC7E2C006BD0D0 /* bluetoothShare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE91381215FC7E2C006BD0D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE91381315FC7E2C006BD0D0 /* UIKit.framework */,
+				FE91381515FC7E2C006BD0D0 /* Foundation.framework */,
+				FE91381715FC7E2C006BD0D0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE91381915FC7E2C006BD0D0 /* bluetoothShare */ = {
+			isa = PBXGroup;
+			children = (
+				FE91382215FC7E2C006BD0D0 /* BTAppDelegate.h */,
+				FE91382315FC7E2C006BD0D0 /* BTAppDelegate.m */,
+				FE91382515FC7E2C006BD0D0 /* BTViewController.h */,
+				FE91382615FC7E2C006BD0D0 /* BTViewController.m */,
+				FE91382815FC7E2C006BD0D0 /* BTViewController.xib */,
+				FE91381A15FC7E2C006BD0D0 /* Supporting Files */,
+			);
+			path = bluetoothShare;
+			sourceTree = "<group>";
+		};
+		FE91381A15FC7E2C006BD0D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE91381B15FC7E2C006BD0D0 /* bluetoothShare-Info.plist */,
+				FE91381C15FC7E2C006BD0D0 /* InfoPlist.strings */,
+				FE91381F15FC7E2C006BD0D0 /* main.m */,
+				FE91382115FC7E2C006BD0D0 /* bluetoothShare-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE91380E15FC7E2C006BD0D0 /* bluetoothShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE91382D15FC7E2C006BD0D0 /* Build configuration list for PBXNativeTarget "bluetoothShare" */;
+			buildPhases = (
+				FE91380B15FC7E2C006BD0D0 /* Sources */,
+				FE91380C15FC7E2C006BD0D0 /* Frameworks */,
+				FE91380D15FC7E2C006BD0D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bluetoothShare;
+			productName = bluetoothShare;
+			productReference = FE91380F15FC7E2C006BD0D0 /* bluetoothShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE91380615FC7E2B006BD0D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BT;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FE91380915FC7E2C006BD0D0 /* Build configuration list for PBXProject "bluetoothShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FE91380415FC7E2B006BD0D0;
+			productRefGroup = FE91381015FC7E2C006BD0D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE91380E15FC7E2C006BD0D0 /* bluetoothShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE91380D15FC7E2C006BD0D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE91381E15FC7E2C006BD0D0 /* InfoPlist.strings in Resources */,
+				FE91382A15FC7E2C006BD0D0 /* BTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE91380B15FC7E2C006BD0D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE91382015FC7E2C006BD0D0 /* main.m in Sources */,
+				FE91382415FC7E2C006BD0D0 /* BTAppDelegate.m in Sources */,
+				FE91382715FC7E2C006BD0D0 /* BTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE91381C15FC7E2C006BD0D0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE91381D15FC7E2C006BD0D0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FE91382815FC7E2C006BD0D0 /* BTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE91382915FC7E2C006BD0D0 /* en */,
+			);
+			name = BTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE91382B15FC7E2C006BD0D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE91382C15FC7E2C006BD0D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE91382E15FC7E2C006BD0D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bluetoothShare/bluetoothShare-Prefix.pch";
+				INFOPLIST_FILE = "bluetoothShare/bluetoothShare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FE91382F15FC7E2C006BD0D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bluetoothShare/bluetoothShare-Prefix.pch";
+				INFOPLIST_FILE = "bluetoothShare/bluetoothShare-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE91380915FC7E2C006BD0D0 /* Build configuration list for PBXProject "bluetoothShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE91382B15FC7E2C006BD0D0 /* Debug */,
+				FE91382C15FC7E2C006BD0D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE91382D15FC7E2C006BD0D0 /* Build configuration list for PBXNativeTarget "bluetoothShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE91382E15FC7E2C006BD0D0 /* Debug */,
+				FE91382F15FC7E2C006BD0D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE91380615FC7E2B006BD0D0 /* Project object */;
+}
