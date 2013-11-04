@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F9B2B4D17D0973100445671 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F9B2B4C17D0973100445671 /* Default-568h@2x.png */; };
 		FE91381415FC7E2C006BD0D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE91381315FC7E2C006BD0D0 /* UIKit.framework */; };
 		FE91381615FC7E2C006BD0D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE91381515FC7E2C006BD0D0 /* Foundation.framework */; };
 		FE91381815FC7E2C006BD0D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE91381715FC7E2C006BD0D0 /* CoreGraphics.framework */; };
@@ -15,22 +16,39 @@
 		FE91382415FC7E2C006BD0D0 /* BTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE91382315FC7E2C006BD0D0 /* BTAppDelegate.m */; };
 		FE91382715FC7E2C006BD0D0 /* BTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE91382615FC7E2C006BD0D0 /* BTViewController.m */; };
 		FE91382A15FC7E2C006BD0D0 /* BTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE91382815FC7E2C006BD0D0 /* BTViewController.xib */; };
+		FE91383115FC7E46006BD0D0 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE91383015FC7E46006BD0D0 /* GameKit.framework */; };
+		FE9A877416106458000C9540 /* JBInfoBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9A877316106457000C9540 /* JBInfoBar.m */; };
+		FE9A8776161066EB000C9540 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9A8775161066EB000C9540 /* MediaPlayer.framework */; };
+		FEA406BF16102CE3005591CB /* AGAlertViewWithProgressbar.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA406BE16102CE3005591CB /* AGAlertViewWithProgressbar.m */; };
+		FEA406C216102E25005591CB /* FileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA406C116102E25005591CB /* FileHelper.m */; };
+		FEA406CC161032D4005591CB /* JBInfoBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA406CB161032D4005591CB /* JBInfoBarManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F9B2B4C17D0973100445671 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FE91380F15FC7E2C006BD0D0 /* bluetoothShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bluetoothShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE91381315FC7E2C006BD0D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FE91381515FC7E2C006BD0D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FE91381715FC7E2C006BD0D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FE91381B15FC7E2C006BD0D0 /* bluetoothShare-Info.plist */ = {isa = PBXFileReference; path = "bluetoothShare-Info.plist"; sourceTree = "<group>"; };
+		FE91381B15FC7E2C006BD0D0 /* bluetoothShare-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bluetoothShare-Info.plist"; sourceTree = "<group>"; };
 		FE91381D15FC7E2C006BD0D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FE91381F15FC7E2C006BD0D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FE91382115FC7E2C006BD0D0 /* bluetoothShare-Prefix.pch */ = {isa = PBXFileReference; path = "bluetoothShare-Prefix.pch"; sourceTree = "<group>"; };
-		FE91382215FC7E2C006BD0D0 /* BTAppDelegate.h */ = {isa = PBXFileReference; path = BTAppDelegate.h; sourceTree = "<group>"; };
+		FE91382115FC7E2C006BD0D0 /* bluetoothShare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bluetoothShare-Prefix.pch"; sourceTree = "<group>"; };
+		FE91382215FC7E2C006BD0D0 /* BTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTAppDelegate.h; sourceTree = "<group>"; };
 		FE91382315FC7E2C006BD0D0 /* BTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTAppDelegate.m; sourceTree = "<group>"; };
-		FE91382515FC7E2C006BD0D0 /* BTViewController.h */ = {isa = PBXFileReference; path = BTViewController.h; sourceTree = "<group>"; };
+		FE91382515FC7E2C006BD0D0 /* BTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTViewController.h; sourceTree = "<group>"; };
 		FE91382615FC7E2C006BD0D0 /* BTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTViewController.m; sourceTree = "<group>"; };
 		FE91382915FC7E2C006BD0D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BTViewController.xib; sourceTree = "<group>"; };
+		FE91383015FC7E46006BD0D0 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		FE9A877216106457000C9540 /* JBInfoBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBInfoBar.h; sourceTree = "<group>"; };
+		FE9A877316106457000C9540 /* JBInfoBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBInfoBar.m; sourceTree = "<group>"; };
+		FE9A8775161066EB000C9540 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		FEA406BD16102CE3005591CB /* AGAlertViewWithProgressbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGAlertViewWithProgressbar.h; sourceTree = "<group>"; };
+		FEA406BE16102CE3005591CB /* AGAlertViewWithProgressbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGAlertViewWithProgressbar.m; sourceTree = "<group>"; };
+		FEA406C016102E25005591CB /* FileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHelper.h; sourceTree = "<group>"; };
+		FEA406C116102E25005591CB /* FileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHelper.m; sourceTree = "<group>"; };
+		FEA406CA161032D3005591CB /* JBInfoBarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBInfoBarManager.h; sourceTree = "<group>"; };
+		FEA406CB161032D4005591CB /* JBInfoBarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBInfoBarManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE9A8776161066EB000C9540 /* MediaPlayer.framework in Frameworks */,
+				FE91383115FC7E46006BD0D0 /* GameKit.framework in Frameworks */,
 				FE91381415FC7E2C006BD0D0 /* UIKit.framework in Frameworks */,
 				FE91381615FC7E2C006BD0D0 /* Foundation.framework in Frameworks */,
 				FE91381815FC7E2C006BD0D0 /* CoreGraphics.framework in Frameworks */,
@@ -47,9 +67,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28CEE2CA161166320029F982 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FEA406BD16102CE3005591CB /* AGAlertViewWithProgressbar.h */,
+				FEA406BE16102CE3005591CB /* AGAlertViewWithProgressbar.m */,
+				FE9A877216106457000C9540 /* JBInfoBar.h */,
+				FE9A877316106457000C9540 /* JBInfoBar.m */,
+				FEA406CA161032D3005591CB /* JBInfoBarManager.h */,
+				FEA406CB161032D4005591CB /* JBInfoBarManager.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
 		FE91380415FC7E2B006BD0D0 = {
 			isa = PBXGroup;
 			children = (
+				5F9B2B4C17D0973100445671 /* Default-568h@2x.png */,
+				FE9A8775161066EB000C9540 /* MediaPlayer.framework */,
+				FE91383015FC7E46006BD0D0 /* GameKit.framework */,
 				FE91381915FC7E2C006BD0D0 /* bluetoothShare */,
 				FE91381215FC7E2C006BD0D0 /* Frameworks */,
 				FE91381015FC7E2C006BD0D0 /* Products */,
@@ -81,7 +117,9 @@
 				FE91382315FC7E2C006BD0D0 /* BTAppDelegate.m */,
 				FE91382515FC7E2C006BD0D0 /* BTViewController.h */,
 				FE91382615FC7E2C006BD0D0 /* BTViewController.m */,
-				FE91382815FC7E2C006BD0D0 /* BTViewController.xib */,
+				FEA406C016102E25005591CB /* FileHelper.h */,
+				FEA406C116102E25005591CB /* FileHelper.m */,
+				28CEE2CA161166320029F982 /* view */,
 				FE91381A15FC7E2C006BD0D0 /* Supporting Files */,
 			);
 			path = bluetoothShare;
@@ -90,6 +128,7 @@
 		FE91381A15FC7E2C006BD0D0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FE91382815FC7E2C006BD0D0 /* BTViewController.xib */,
 				FE91381B15FC7E2C006BD0D0 /* bluetoothShare-Info.plist */,
 				FE91381C15FC7E2C006BD0D0 /* InfoPlist.strings */,
 				FE91381F15FC7E2C006BD0D0 /* main.m */,
@@ -151,6 +190,7 @@
 			files = (
 				FE91381E15FC7E2C006BD0D0 /* InfoPlist.strings in Resources */,
 				FE91382A15FC7E2C006BD0D0 /* BTViewController.xib in Resources */,
+				5F9B2B4D17D0973100445671 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +204,10 @@
 				FE91382015FC7E2C006BD0D0 /* main.m in Sources */,
 				FE91382415FC7E2C006BD0D0 /* BTAppDelegate.m in Sources */,
 				FE91382715FC7E2C006BD0D0 /* BTViewController.m in Sources */,
+				FEA406BF16102CE3005591CB /* AGAlertViewWithProgressbar.m in Sources */,
+				FEA406C216102E25005591CB /* FileHelper.m in Sources */,
+				FEA406CC161032D4005591CB /* JBInfoBarManager.m in Sources */,
+				FE9A877416106458000C9540 /* JBInfoBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +262,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -235,10 +280,15 @@
 		FE91382E15FC7E2C006BD0D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: 辰 周 (4LT7BST426)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 辰 周 (4LT7BST426)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "bluetoothShare/bluetoothShare-Prefix.pch";
 				INFOPLIST_FILE = "bluetoothShare/bluetoothShare-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -249,7 +299,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "bluetoothShare/bluetoothShare-Prefix.pch";
 				INFOPLIST_FILE = "bluetoothShare/bluetoothShare-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -273,6 +326,7 @@
 				FE91382F15FC7E2C006BD0D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
